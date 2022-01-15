@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "betterhorse:block/fragile_obsidian"
+  }
+}

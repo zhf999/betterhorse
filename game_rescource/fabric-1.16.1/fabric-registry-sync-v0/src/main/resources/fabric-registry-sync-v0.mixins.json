@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "net.fabricmc.fabric.mixin.registry.sync",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "AccessorRegistry",
+    "MixinBootstrap",
+    "MixinIdList",
+    "MixinIdRegistry",
+    "MixinPlayerManager",
+    "MixinLevelStorageSession",
+    "MixinRegistry",
+    "MixinSimpleRegistry"
+  ],
+  "client": [
+    "client.MixinBlockColorMap",
+    "client.MixinItemColorMap",
+    "client.MixinItemModelMap",
+    "client.MixinMinecraftClient",
+    "client.MixinParticleManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

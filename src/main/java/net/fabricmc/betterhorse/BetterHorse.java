@@ -9,6 +9,7 @@ import net.fabricmc.betterhorse.Network.NetworkRegisterHandler;
 import net.fabricmc.betterhorse.Entity.EntityRegistryHandler;
 import net.fabricmc.betterhorse.Item.ItemRegistryHandler;
 
+import net.fabricmc.betterhorse.StatusEffect.EffectRegistryHandler;
 import net.fabricmc.fabric.api.biome.v1.BiomeModificationContext;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
@@ -45,6 +46,7 @@ public class BetterHorse implements ModInitializer {
 		BlockRegistryHandler.register();
 		BlockEntityRegistryHandler.register();
 		EntityRegistryHandler.register();
+		EffectRegistryHandler.register();
 		BiomeHandler.biome_config();
 		//key binding Events:
 		NetworkRegisterHandler.register();

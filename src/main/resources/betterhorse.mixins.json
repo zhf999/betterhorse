@@ -4,7 +4,6 @@
   "package": "net.fabricmc.betterhorse.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "MixinHorseEntity",
   ],
   "client": [
   ],
